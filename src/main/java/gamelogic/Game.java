@@ -6,15 +6,11 @@ import java.lang.reflect.Method;
 
 public class Game {
 
-
-
     Player Claudio = new Player("Claudio", 10, 1, 1);
     Player Filipe = new Player ("Filipe", 10, 1, 1);
 
     int claudioHp =  Claudio.getHp();
     int filipeHp = Filipe.getHp();
-
-
 
     public Game() {
     }
