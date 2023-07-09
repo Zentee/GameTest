@@ -1,10 +1,12 @@
-package player;
+package monsters;
 
-public class Player {
+public class Monsters {
 
     private String name;
+
+    private String type;
     private int hp;
-    private int bluntDamage = 1;
+    private int bluntDamage;
 
     private int slashDamage;
 
@@ -13,10 +15,11 @@ public class Player {
     private int lv;
 
 
-    public Player(String name, int lv) {
+    public Monsters(String name, int lv, String type, int hp) {
         this.name = name;
         this.lv = lv;
-        hp = 5 * lv;
+        this.type = type;
+        this.hp = hp * lv;
     }
 
 
@@ -26,6 +29,18 @@ public class Player {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setDamageOutput(int damageOutput) {
+        this.damageOutput = damageOutput;
     }
 
     public int getHp() {
