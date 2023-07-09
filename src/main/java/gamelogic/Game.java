@@ -25,6 +25,7 @@ public class Game {
         while (player1Hp > 0 && player2Hp > 0) {
 
             if (whoStarts) {
+                //TODO - Re-do damage formula atm its 1 x 1 but we have to make it more complex
                 player1Hp -= Math.ceil(Math.random() * Player1.getDamageOutput());
                 if (player1Hp < 0) {
                     player1Hp = 0;
@@ -40,6 +41,7 @@ public class Game {
         }
 
         if (player1Hp < player2Hp) {
+            //TODO - Make string template literal so it's not player wins but the name of the player
             System.out.println("Player1 Wins");
             System.out.println("Player1 hp : " + player1Hp);
             System.out.println("Player2 hp : " + player2Hp);
