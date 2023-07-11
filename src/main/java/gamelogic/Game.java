@@ -47,6 +47,7 @@ public class Game {
             System.out.println("Player2 hp : " + player2Hp);
             Player1.setLv(Player1.getLv() + 1);
 
+
         } else if (player1Hp > player2Hp) {
             System.out.println("Player2 Wins");
             System.out.println("Player1 hp : " + player1Hp);

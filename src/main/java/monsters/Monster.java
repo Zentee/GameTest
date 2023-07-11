@@ -1,6 +1,6 @@
 package monsters;
 
-public class Monsters {
+public class Monster {
 
     private String name;
 
@@ -15,7 +15,7 @@ public class Monsters {
     private int lv;
 
 
-    public Monsters(String name, int lv, String type, int hp) {
+    public Monster(String name, int lv, String type, int hp) {
         this.name = name;
         this.lv = lv;
         this.type = type;
@@ -37,10 +37,6 @@ public class Monsters {
 
     public void setType(String type) {
         this.type = type;
-    }
-
-    public void setDamageOutput(int damageOutput) {
-        this.damageOutput = damageOutput;
     }
 
     public int getHp() {
