@@ -20,6 +20,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.workspace.xml
 
 ### NetBeans ###
 /nbproject/private/
