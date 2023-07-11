@@ -5,31 +5,21 @@ public class Monster {
     private String name;
 
     private String type;
-    private int hp;
-    private int bluntDamage;
+    protected int hp;
+    protected int bluntDamage;
 
-    private int slashDamage;
+    protected int slashDamage;
 
-    private int magicDamage;
-    private int damageOutput = bluntDamage + slashDamage + magicDamage;
-    private int lv;
+    protected int magicDamage;
+    protected int damageOutput = bluntDamage + slashDamage + magicDamage;
+    protected int lv;
 
 
-    public Monster(String name, int lv, String type, int hp) {
-        this.name = name;
+    public Monster(int lv, String type) {
         this.lv = lv;
         this.type = type;
-        this.hp = hp * lv;
     }
 
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getType() {
         return type;
