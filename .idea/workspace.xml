@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11d6321-a5fd-4594-bd40-dd7085a08701" name="Changes" comment="created slime class, refactored monster">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controls/GameControls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gamelogic/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gamelogic/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" afterDir="false" />
-    </list>
-    <list id="d3fcef14-a46e-4094-be58-0a61f731111b" name="Changes by Dio" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/gamelogic/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gamelogic/Game.java" afterDir="false" />
-    </list>
+    <list default="true" id="b11d6321-a5fd-4594-bd40-dd7085a08701" name="Changes" comment="Added scanner and started refactoring the old methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,21 +25,6 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/gamelogic/Game.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="4" changelist="b11d6321-a5fd-4594-bd40-dd7085a08701" />
-        <range start1="3" end1="3" start2="5" end2="8" changelist="b11d6321-a5fd-4594-bd40-dd7085a08701" />
-        <range start1="6" end1="8" start2="11" end2="14" changelist="b11d6321-a5fd-4594-bd40-dd7085a08701" />
-        <range start1="9" end1="9" start2="15" end2="21" changelist="b11d6321-a5fd-4594-bd40-dd7085a08701" />
-        <range start1="10" end1="12" start2="22" end2="23" changelist="d3fcef14-a46e-4094-be58-0a61f731111b" />
-        <range start1="14" end1="17" start2="25" end2="25" changelist="b11d6321-a5fd-4594-bd40-dd7085a08701" />
-        <range start1="18" end1="18" start2="26" end2="27" changelist="b11d6321-a5fd-4594-bd40-dd7085a08701" />
-        <range start1="20" end1="21" start2="29" end2="47" changelist="b11d6321-a5fd-4594-bd40-dd7085a08701" />
-        <range start1="58" end1="59" start2="84" end2="85" changelist="b11d6321-a5fd-4594-bd40-dd7085a08701" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -189,8 +165,33 @@
       <option name="project" value="LOCAL" />
       <updated>1689090278899</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added scanner and started refactoring the old methods">
+      <created>1690132474919</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690132474919</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added scanner and started refactoring the old methods">
+      <created>1690132523465</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690132523465</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -202,6 +203,7 @@
     <MESSAGE value="Some todos, and we have to find a way to ignore this workspace.xml bullshit" />
     <MESSAGE value="Hopefully it's done" />
     <MESSAGE value="refactors" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactors" />
+    <MESSAGE value="Added scanner and started refactoring the old methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added scanner and started refactoring the old methods" />
   </component>
 </project>
