@@ -10,12 +10,14 @@ public class Player {
 
     private int magicDamage;
     private int damageOutput = bluntDamage + slashDamage + magicDamage;
-    private int lv;
+    private int lv = 1;
+
+    private String weapon;
 
 
-    public Player(String name, int lv) {
+    public Player(String name, String weapon) {
         this.name = name;
-        this.lv = lv;
+        this.weapon = weapon;
         hp = 5 * lv;
     }
 
@@ -73,5 +75,11 @@ public class Player {
         this.lv = lv;
     }
 
+    public String getWeapon() {
+        return weapon;
+    }
 
+    public void setWeapon(String weapon) {
+        this.weapon = weapon;
+    }
 }
