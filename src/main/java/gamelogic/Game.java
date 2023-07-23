@@ -20,8 +20,6 @@ public class Game {
     GameControls gameControls;
     Player player;
 
-    int player1Hp = Player1.getHp();
-    int player2Hp = Player2.getHp();
 
 
     public Game() {
