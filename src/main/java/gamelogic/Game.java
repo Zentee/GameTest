@@ -4,9 +4,6 @@ package gamelogic;
 import controls.GameControls;
 import player.Player;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Game {
 
 /*
@@ -27,7 +24,7 @@ public class Game {
     }
 
     public void init(){
-        this.player = new Player(gameControls.getPlayerName(), gameControls.getPlayerWeapon());
+        this.player = new Player(gameControls.getPlayerName(), gameControls.getPlayerWeaponId());
         System.out.println("Your name is: " + player.getName() + "\n" + "Your weapon is: " + player.getWeapon());
     }
 

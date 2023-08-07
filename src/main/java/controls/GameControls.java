@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GameControls {
 
-    private final Scanner gameInputs;  // Create a Scanner object
+    private final Scanner gameInputs;
 
 
     public GameControls() {
@@ -18,10 +18,9 @@ public class GameControls {
         return gameInputs.nextLine();
     }
 
-    public String getPlayerWeapon(){
+    public String getPlayerWeaponId(){
         System.out.println("Choose your Weapon");
-
-        return gameInputs.nextLine();
+        return Integer.toString(gameInputs.nextInt());
     }
 
 
