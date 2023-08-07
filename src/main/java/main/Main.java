@@ -8,8 +8,8 @@ public class Main {
 
         Game game = new Game();
 
-
-        game.fight();
+        game.init();
+        //game.fight();
 
 
 

@@ -1,24 +1,46 @@
 package gamelogic;
 
+
+import controls.GameControls;
 import player.Player;
 
 public class Game {
 
-    Player Player1 = new Player("Claudio",  1);
-    Player Player2 = new Player("Filipe",  1);
-
+/*
+    Player Player1 = new Player("Claudio", 1);
+    Player Player2 = new Player("Filipe", 1);
 
     int player1Hp = Player1.getHp();
     int player2Hp = Player2.getHp();
+*/
 
-
+    GameControls gameControls;
+    Player player;
 
 
 
     public Game() {
+        this.gameControls = new GameControls();
     }
 
-    public void fight() {
+    public void init(){
+        this.player = new Player(gameControls.getPlayerName(), gameControls.getPlayerWeaponId());
+        System.out.println("Your name is: " + player.getName() + "\n" + "Your weapon is: " + player.getWeapon());
+    }
+
+
+    /*
+    if(gameControls.nextRead = "1") {  player.setPlayerName(inputValue) }
+    - Após o jogador ter os dados base vai poder escolher entre porrada (opção 1) ou nada por agora (opção 2) que
+      vai ter um setTimeout para poder escolher outra vez as opções, ou entao recuperar hp.
+    - Após uma batalha se o jogador não morreu vai evoluir de nivel e poder ir a porrada outra vez ou descansar
+    */
+
+    // Depois de criar os players o jogador tem a opção de começar o metodo em baixo
+
+    /*public void fight() {
+
+
 
         boolean whoStarts = Math.random() >= 0.5;
 
@@ -56,7 +78,7 @@ public class Game {
         } else {
             System.out.println("It's a draw");
         }
-    }
+    }*/
 
 
 }
