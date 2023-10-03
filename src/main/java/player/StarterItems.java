@@ -4,7 +4,7 @@ import items.weapons.Sword_00;
 
 public enum StarterItems {
 
-    SWORD(),
+    SWORD(0, "Basic Sword"),
     MACE(1, "Basic Mace"),
     BOW(2, "Basic Bow"),
     STAFF(3, "Basic Staff"),

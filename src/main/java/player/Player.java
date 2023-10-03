@@ -5,9 +5,7 @@ public class Player {
     private String name;
     private int hp;
     private int bluntDamage = 1;
-
     private int slashDamage;
-
     private int magicDamage;
     private int damageOutput = bluntDamage + slashDamage + magicDamage;
     private int lv = 1;
