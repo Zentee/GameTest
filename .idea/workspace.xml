@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11d6321-a5fd-4594-bd40-dd7085a08701" name="Changes" comment="Added scanner and started refactoring the old methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Consumables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Equipables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/weapons/Sword_00.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/player/StarterItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controls/GameControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controls/GameControls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gamelogic/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gamelogic/Game.java" afterDir="false" />
-    </list>
+    <list default="true" id="b11d6321-a5fd-4594-bd40-dd7085a08701" name="Changes" comment="refactored GameControls" />
     <list id="459e4be9-d925-4e17-8958-79dbdc29aeec" name="Changes by Dio" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/player/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controls/GameControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controls/GameControls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690132570335</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactored controler a bit and created inventory">
+      <created>1691428030053</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691428030053</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactored GameControls">
+      <created>1696348103204</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696348103204</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +229,8 @@
     <MESSAGE value="Hopefully it's done" />
     <MESSAGE value="refactors" />
     <MESSAGE value="Added scanner and started refactoring the old methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scanner and started refactoring the old methods" />
+    <MESSAGE value="refactored controler a bit and created inventory" />
+    <MESSAGE value="refactored GameControls" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored GameControls" />
   </component>
 </project>
